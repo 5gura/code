@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+/* 头部标题样式 */
+header {
+    display: inline-flex;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.second_title {
+    display: grid;
+}
+
+.compane{
+    color: brown;
+    font-size: 25px;
+}
+
+.compane_dosc {
+    color: grey;
+    font-size: 16px;
+}
+.phone_number,.phone_image {
+    display: inline-grid;
+}
+.phone {
+    position:relative;
+    left: 25%;
+}
+.second_title {
+    position:relative;
+    left:-25px;
+}
+
+/* 菜单样式 */
+ul {
+    background-color: darkgray;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0;
+}
+li {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    color: white;
+    text-align: center;
+    font-size: 125%;
+}
+a {
+    padding-left: 5%;
+    padding-right: 5%;
+    display:inline;
+}
+a:hover {
+    background-color: brown;
+}
